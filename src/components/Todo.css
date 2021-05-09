@@ -1,0 +1,52 @@
+.todo{
+    width:70%;
+    margin:auto;
+    background-color: lightskyblue;
+    height:500px;
+    overflow:scroll;
+    margin-top:20px;
+}
+
+.addTodo{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.addTodo input{
+    width:400px;
+    padding:10px;
+    box-sizing: border-box;
+}
+
+.addTodo button{
+    width:100px;
+    padding:12px;
+    background-color:#000000;
+    color:#ffffff;
+    outline:none;
+    margin-left:2px;
+    cursor:pointer;
+    border:none;
+}
+
+.todoList{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.todoList h2{
+    width:200px;
+}
+
+.todoList button{
+    width:100px;
+    padding:10px;
+    background-color:#ff0000;
+    color:#ffffff;
+    outline:none;
+    margin-left:20px;
+    cursor:pointer;
+    border:none;
+}
